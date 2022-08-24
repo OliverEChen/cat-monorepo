@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cat-ui-vite": "workspace:^1.0.2",
+    "cat-ui-vite": "workspace:^0.1.0",
     "vue": "3.2.37"
   }
 }
