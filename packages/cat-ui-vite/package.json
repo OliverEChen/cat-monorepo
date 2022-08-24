@@ -12,15 +12,12 @@
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs",
     "vitest": "vitest run",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky install"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "oliver",
   "license": "MIT",
   "devDependencies": {
-    "@commitlint/cli": "^17.0.3",
-    "@commitlint/config-angular": "^17.0.3",
     "@typescript-eslint/eslint-plugin": "^5.33.1",
     "@typescript-eslint/parser": "^5.33.1",
     "@vitejs/plugin-vue": "3.0.3",
@@ -34,7 +31,6 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-vue": "^9.3.0",
     "happy-dom": "6.0.4",
-    "husky": "^8.0.1",
     "prettier": "^2.7.1",
     "terser": "5.4.0",
     "typescript": "^4.7.4",
