@@ -1,0 +1,13 @@
+<link rel="stylesheet" href="../../dist/assets/entry.2f052dcc.css">
+<h1>Cat UI</h1>
+<div id="app"></div>
+<script type="module">
+    import { createApp } from "vue";
+    import CatUI from "../../dist/cat-ui.esm.js";
+
+    createApp({
+        template: `
+      <SButton color="red" icon="search">主要按钮</SButton>
+    `}).use(CatUI).mount('#app')
+
+</script>
