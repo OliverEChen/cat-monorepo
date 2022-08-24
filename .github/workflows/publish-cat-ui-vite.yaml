@@ -2,7 +2,7 @@ name: Publish cat-ui-vite To Npm
 
 on:
   push:
-    branches: [publish]
+    branches: [publish-cat-ui-vite]
 
 jobs:
   publish:
