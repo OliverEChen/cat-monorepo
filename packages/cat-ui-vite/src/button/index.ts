@@ -1,4 +1,4 @@
-import Button from "./Button";
+import Button from "./button";
 import { App } from "vue";
 import "uno.css";
 
@@ -7,7 +7,6 @@ export { Button };
 
 // 导出Vue插件
 export default {
-  name: Button.name,
   install(app: App) {
     app.component(Button.name, Button);
   },

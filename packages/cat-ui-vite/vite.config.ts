@@ -1,7 +1,9 @@
-import { defineConfig, UserConfig } from "vite";
+/// <reference types="vitest" />
+import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
 import vueJsx from "@vitejs/plugin-vue-jsx";
 import Unocss from "./config/unocss";
+import { UserConfig } from "vitest";
 
 // https://vitejs.dev/config/
 
@@ -55,6 +57,7 @@ export const config = {
     },
     outDir: "./dist",
   },
-} as UserConfig;
+};
 
+// @ts-ignore
 export default defineConfig(config as UserConfig);
