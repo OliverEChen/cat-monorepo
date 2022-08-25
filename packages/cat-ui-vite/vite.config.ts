@@ -1,4 +1,4 @@
-import { defineConfig } from "vite";
+import { defineConfig, UserConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
 import vueJsx from "@vitejs/plugin-vue-jsx";
 import Unocss from "./config/unocss";
@@ -16,7 +16,7 @@ const rollupOptions = {
   },
 };
 
-export default defineConfig({
+export const config = {
   resolve: { alias: { vue: "vue/dist/vue.esm-bundler.js" } },
 
   plugins: [
@@ -53,5 +53,8 @@ export default defineConfig({
       fileName: "cat-ui",
       formats: ["esm", "umd", "iife"], // 导出模块类型
     },
+    outDir: "./dist",
   },
-});
+} as UserConfig;
+
+export default defineConfig(config as UserConfig);
