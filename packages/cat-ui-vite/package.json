@@ -1,6 +1,6 @@
 {
   "name": "cat-ui-vite",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "index.js",
   "homepage": "https://cat-ui.vercel.app/",
@@ -46,7 +46,6 @@
   },
   "dependencies": {
     "@iconify-json/ic": "^1.1.9",
-    "axios": "^0.27.2",
     "unocss": "0.45.6",
     "vue": "3.2.37"
   }
