@@ -1,11 +1,14 @@
 {
   "name": "cat-ui-vite",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "index.js",
+  "homepage": "https://cat-ui.vercel.app/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "build:components": "pnpm build:esno",
+    "build:esno": "esno ./scripts/build.ts",
     "lint": "eslint --fix --ext .ts,.vue src",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.vue\"",
     "docs:dev": "vitepress dev docs",
@@ -30,6 +33,8 @@
     "eslint-plugin-json": "^3.1.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-vue": "^9.3.0",
+    "esno": "^0.16.3",
+    "fs-extra": "^10.1.0",
     "happy-dom": "6.0.4",
     "prettier": "^2.7.1",
     "terser": "5.4.0",
@@ -41,7 +46,6 @@
   },
   "dependencies": {
     "@iconify-json/ic": "^1.1.9",
-    "axios": "^0.27.2",
     "unocss": "0.45.6",
     "vue": "3.2.37"
   }
