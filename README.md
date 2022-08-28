@@ -4,11 +4,12 @@
 </p>
 
 <h1 align="center">Cat UI</h1>
+
 <p align="center">
     优雅，轻量组件库
 </p>
 
 <p align="center">
     <a href="https://github.com/OliverEChen/cat-monorepo/actions/workflows/main.yaml"><img src="https://img.shields.io/badge/CI-passing-orange" alt="CI" style="max-width: 100%;"></a>
-    <a href="https://github.com/OliverEChen/cat-monorepo/blob/publish-cat-ui-vite/packages/cat-ui-vite/LICENSE"><img src="https://img.shields.io/badge/lisence-MIT-brightgreen" alt="MIT" style="max-width: 100%;"></a>
+    <a href="https://github.com/OliverEChen/cat-monorepo/actions/workflows/main.yaml"><img src="https://img.shields.io/badge/lisence-MIT-brightgreen" alt="MIT" style="max-width: 100%;"></a>
 </p>
