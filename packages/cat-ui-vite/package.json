@@ -3,6 +3,7 @@
   "version": "0.1.4",
   "description": "",
   "main": "index.js",
+  "module": "./dist/cat-ui.esm.js",
   "homepage": "https://cat-ui.vercel.app/",
   "scripts": {
     "dev": "vite",
