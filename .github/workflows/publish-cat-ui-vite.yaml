@@ -20,7 +20,7 @@ jobs:
       - name: Install modules
         run: cd packages/cat-ui-vite && pnpm install
       - name: Build
-        run: cd packages/cat-ui-vite && npm run build
+        run: cd packages/cat-ui-vite && npm run build:components
       - name: "Publish to the npm registry"
         uses: primer/publish@3.0.0
         env:
